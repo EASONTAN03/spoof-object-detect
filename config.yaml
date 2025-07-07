@@ -1,0 +1,22 @@
+data:
+  raw: data/raw      # Path to raw dataset
+  processed: data/processed  # Path to processed dataset
+
+outputs:
+  models: outputs/models              # Directory for saving trained models
+  predict: outputs/predict                # Directory for saving plots
+
+configs:
+  dataset: datasets
+  model_name: Spoof-Detect
+  class: ['live', 'spoof']
+  prepare_benchmark: 1  # Benchmark for processing the raw dataset
+  model_benchmark: 1  # Benchmark for training the model
+
+params:
+  target_size: 224  # Target size for image resizing
+  epochs: 30  # Number of epochs for training
+  batch_size: 16  # Batch size for training
+  conf: 0.45  # Confidence threshold for predictions
+  iou: 0.8  # IoU threshold for predictions
+

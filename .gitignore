@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model files (large)
+*.pt
+*.pth
+*.h5
+*.pkl
+*.onnx
+*.tflite
+
+# Data files (large)
+data/raw/
+data/processed/
+outputs/
+
+# Temporary files
+*.tmp
+*.temp
+temp_image.jpg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Pyre type checker
+.pyre/
+
+# Cloud deployment (separate repo)
+deploy_models/cloud-deploy_spoof-detect/.git/ 
