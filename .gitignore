@@ -17,6 +17,8 @@ venv.bak/
 
 # Model files (large)
 *.pt
+!spoof-detect_v1.1_1750604360.pt
+
 *.pth
 *.h5
 *.pkl
